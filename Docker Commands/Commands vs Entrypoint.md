@@ -1,6 +1,6 @@
 Standard syntax for writing commands
 
-![[Pasted image 20230916024729.png]]
+![cmd](https://github.com/omkardamame/docker/blob/main/Docker%20Commands/Pasted%20image%2020230916024729.png)
 
 **CMD** command is a hardcoded command in a dockerfile.
 If we give a command with parameter, it will override the existing command's parameter.
