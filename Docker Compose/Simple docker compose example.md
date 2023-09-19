@@ -18,7 +18,7 @@ Docker Compose version v2.21.0
 
 ## 2. Architecture of the app
 
-![[arch_voting_app.png]]
+![arch_voting_app.png](https://github.com/omkardamame/docker/blob/main/Docker%20Compose/arch_voting_app.png)
 
 The `worker`, `vote` and `result` app are custom made so before starting docker compose, you'll need to either build & push those app to your dockerhub repo and modify the docker compose file accordingly OR have to build the images of them using their respective `Dockerfiles` . The later stuff is pretty easy to implement.
 
@@ -111,4 +111,4 @@ Note:
 
 ## References:
 
-1. [Example Voting App](https://github.com/dockersamples/example-voting-app](https://github.com/dockersamples/example-voting-app)
+1. [example-voting-app](https://github.com/dockersamples/example-voting-app)
