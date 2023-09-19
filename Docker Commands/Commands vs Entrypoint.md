@@ -20,7 +20,7 @@ docker run ubuntu-sleeper 10
 This will run the image in container that run the command "sleep 10".
 If we don't give a parameters, it will throw an error.
 
-![img](docker/Docker Commands/Pasted image 20230916025821.png)
+![err](https://github.com/omkardamame/docker/blob/main/Docker%20Commands/Pasted%20image%2020230916025821.png)
 
 ## Running container with default startup command without giving a parameter
 
