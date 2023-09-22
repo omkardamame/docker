@@ -32,7 +32,7 @@ This is the network where containers is in fully isolation as it cannot use / co
 docker run ubuntu --network=none
 ```
 
-![[docker_default_network.png]]
+![[docker_default_network.png]](https://github.com/omkardamame/docker/blob/main/Docker%20Networks/docker_default_network.png)
 
 # User-defined networks
 
@@ -43,7 +43,7 @@ docker network create \
 custom-network
 ```
 
-![[docker_network_create.png]]
+![docker_network_create.png](https://github.com/omkardamame/docker/blob/main/Docker%20Networks/docker_network_create.png)
 
 You can check list of docker networks,
 
@@ -57,7 +57,7 @@ Also, you can see network information of docker container using following comman
 docker insepct <container_name>
 ```
 
-![[docker_network_inspect.png]]
+![[docker_network_inspect.png]](https://github.com/omkardamame/docker/blob/main/Docker%20Networks/docker_network_inspect.png)
 
 # Embedded DNS
 
@@ -65,4 +65,4 @@ Docker creates a separate namespaces for each container. It uses virtual etherne
 
 Docker DNS server runs on `172.0.0.11` IP address. As it maintains a DNS record entries, there is no need to use IP address when connecting two containers; you can just use container names and that would be enough.
 
-![[docker_embedded_dns.png]]
+![[docker_embedded_dns.png]](https://github.com/omkardamame/docker/blob/main/Docker%20Networks/docker_embedded_dns.png)
