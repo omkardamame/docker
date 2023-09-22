@@ -34,7 +34,7 @@ This way the child system (system present in container) thinks it's independent.
 
 If we have nginx service, on host it will show different process ID but in container it will show different process ID than host. That indicates that all process are in fact running on the same host but separated into their own containers using namespaces.
 
-![[namespace_pid.png]]
+![[namespace_pid.png]](https://github.com/omkardamame/docker/blob/main/Docker%20Engine/namespace_pid.png)
 
 ## cgroups
 
