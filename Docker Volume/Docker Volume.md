@@ -62,7 +62,7 @@ docker run \
 --mount type=bind,source=data/mysql,target=var/lib/mysql mysql
 ```
 
-![[docker_volumes.png]]
+![[docker_volumes.png]](https://github.com/omkardamame/docker/blob/main/Docker%20Volume/docker_volumes.png)
 
 ## Storage Drivers
 
