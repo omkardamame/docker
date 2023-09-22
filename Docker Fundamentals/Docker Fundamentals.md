@@ -26,6 +26,4 @@ Once an image is built, it becomes READ-ONLY. If you want to make changes, you'l
 Layer 6 is the READ-WRITE image which gets build after running a docker container from a image.
 This is temporary layer as it stores logs, any data changes. The life of this layer is only as long as the container alive. When container is destroyed the container and all the Layer 6 gets destroyed.
 
-![[docker_layers.png]]
-
-
+![docker_layers](https://github.com/omkardamame/docker/blob/main/Docker%20Fundamentals/docker_layers.png)
