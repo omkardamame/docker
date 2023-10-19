@@ -1,4 +1,4 @@
-# Installing using Apt repository
+# Clean install of Docker on Ubuntu 22.04.md
 
 ## 1. Set up Docker's Apt repository
 
